@@ -24,11 +24,11 @@
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
+    -webkit-animation: imageAnimation 25s linear infinite 0s;
+    -moz-animation: imageAnimation 25s linear infinite 0s;
+    -o-animation: imageAnimation 25s linear infinite 0s;
+    -ms-animation: imageAnimation 25s linear infinite 0s;
+    animation: imageAnimation 25s linear infinite 0s;
 }
 .cb-slideshow li div {
     z-index: 1000;
@@ -38,11 +38,11 @@
     width: 100%;
     text-align: right;
     opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
+    -webkit-animation: titleAnimation 25s linear infinite 0s;
+    -moz-animation: titleAnimation 25s linear infinite 0s;
+    -o-animation: titleAnimation 25s linear infinite 0s;
+    -ms-animation: titleAnimation 25s linear infinite 0s;
+    animation: titleAnimation 25s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -139,11 +139,11 @@
 	}
 	17% {
 	    opacity: 1;
-	    -webkit-transform: scale(1.1) rotate(3deg);
+	    -webkit-transform: scale(1.1) rotate(5deg);
 	}
 	25% {
 	    opacity: 0;
-	    -webkit-transform: scale(1.1) rotate(3deg);
+	    -webkit-transform: scale(1.1) rotate(5deg);
 	}
 	100% { opacity: 0 }
 }
@@ -159,11 +159,11 @@
 	}
 	17% {
 	    opacity: 1;
-	    -moz-transform: scale(1.1) rotate(3deg);
+	    -moz-transform: scale(1.1) rotate(5deg);
 	}
 	25% {
 	    opacity: 0;
-	    -moz-transform: scale(1.1) rotate(3deg);
+	    -moz-transform: scale(1.1) rotate(5deg);
 	}
 	100% { opacity: 0 }
 }
@@ -179,11 +179,11 @@
 	}
 	17% {
 	    opacity: 1;
-	    -o-transform: scale(1.1) rotate(3deg);
+	    -o-transform: scale(1.1) rotate(5deg);
 	}
 	25% {
 	    opacity: 0;
-	    -o-transform: scale(1.1) rotate(3deg);
+	    -o-transform: scale(1.1) rotate(5deg);
 	}
 	100% { opacity: 0 }
 }
@@ -199,11 +199,11 @@
 	}
 	17% {
 	    opacity: 1;
-	    -ms-transform: scale(1.1) rotate(3deg);
+	    -ms-transform: scale(1.1) rotate(5deg);
 	}
 	25% {
 	    opacity: 0;
-	    -ms-transform: scale(1.1) rotate(3deg);
+	    -ms-transform: scale(1.1) rotate(5deg);
 	}
 	100% { opacity: 0 }
 }
@@ -219,11 +219,11 @@
 	}
 	17% {
 	    opacity: 1;
-	    transform: scale(1.1) rotate(3deg);
+	    transform: scale(1.1) rotate(5deg);
 	}
 	25% {
 	    opacity: 0;
-	    transform: scale(1.1) rotate(3deg);
+	    transform: scale(1.1) rotate(5deg);
 	}
 	100% { opacity: 0 }
 }
